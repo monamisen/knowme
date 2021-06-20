@@ -1,0 +1,162 @@
+/**************************TAG SELECTOR********************************/
+body {
+    margin: 0px;
+    text-align: center;
+}
+
+h2 {
+    color: #b466e4;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    line-height: 2;
+}
+
+h3 {
+    color: #C490E4;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: #596061;
+    font-family: 'Merriweather', serif;
+}
+
+hr {
+    color: #F6C6EA;
+    border-style: none;
+    border-bottom-style: dotted;
+    border-width: 5px;
+    height: 1px;
+    margin-top: 0mm;
+    width: 5%;;
+}
+/**************************CLASS SELECTOR********************************/
+.firstdiv {
+    background-color: #FBDA61;
+    background-image: -webkit-linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+    padding: 100px 0 0 0;
+    position: relative;
+}
+
+.profile-img {
+    width: 40%;
+}
+.hero-text {
+    line-height: 400%;
+}
+.firstcloud {
+    position: absolute;
+    right: 250px;
+    top: 40px;
+    width: 10%;
+}
+
+.secondcloud {
+    position: absolute;
+    left: 300px;
+    top: 250px;
+    width: 10%;
+}
+
+.mountain {
+    margin: 40px 0px 0px 0px;
+    width: 40%;
+}
+
+.profile {
+    margin: 100px auto 100px auto;
+    width: 50%;
+    line-height: 2;
+}
+
+.skill-row {
+    text-align: left;
+    margin: 100px auto 100px auto;
+    width: 50%;
+    line-height: 2;
+}
+
+.computer {
+    width: 30%;
+    float: left;
+    margin: auto 20px auto auto;
+}
+
+.painting {
+    width: 30%;
+    float: right;
+    margin: auto auto auto 20px;
+}
+
+.contact-me {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+}
+
+.BUTTON_ION {
+    background: #FBDA61;
+    background-image: -webkit-linear-gradient(top, #FBDA61, #FF5ACD);
+    background-image: -moz-linear-gradient(top, #FBDA61, #FF5ACD);
+    background-image: -ms-linear-gradient(top, #FBDA61, #FF5ACD);
+    background-image: -o-linear-gradient(top, #FBDA61, #FF5ACD);
+    background-image: -webkit-gradient(to bottom, #FBDA61, #FF5ACD);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding: 26px;
+    border: solid #FFFFFF 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    line-height: 1;
+ }
+ 
+ .BUTTON_ION:hover {
+    border: solid #FFFFFF 1px;
+    background: #FF5ACD;
+    background-image: -webkit-linear-gradient(top, #FF5ACD, #FBDA61);
+    background-image: -moz-linear-gradient(top, #FF5ACD, #FBDA61);
+    background-image: -ms-linear-gradient(top, #FF5ACD, #FBDA61);
+    background-image: -o-linear-gradient(top, #FF5ACD, #FBDA61);
+    background-image: -webkit-gradient(to bottom, #FF5ACD, #FBDA61);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+ .bottom-container {
+    background-color: #C490E4;
+    padding: 50px;
+    font-size: 0.75rem;
+    line-height: 3;
+ }
+
+ .footer-link {
+    color: #F9F9F9;
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+    padding: 1.5rem;
+    text-decoration: none;
+    width: 50%;
+ }
+
+ .footer-link:hover {
+    text-decoration: underline;
+ }
+
+/**************************ID SELECTOR********************************/
+
+#name {
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    color: #F9F9F9;
+}
